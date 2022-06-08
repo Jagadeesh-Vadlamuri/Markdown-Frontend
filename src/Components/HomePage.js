@@ -20,7 +20,13 @@ const HomePage = ({details, setDetails}) => {
     onSubmit: async (values) => {
       try {
         if(values.email=='admin@gmail.com'){
-          // navigate(`/getItems`)
+          navigate(`/getTasks`)
+          setDetails({
+            email: values.email
+          })
+        }
+        if(values.email=='testemail@gmail.com'){
+          navigate(`/getTasks`)
           setDetails({
             email: values.email
           })
