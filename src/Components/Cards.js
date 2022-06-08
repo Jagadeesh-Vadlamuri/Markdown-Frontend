@@ -10,7 +10,7 @@ import Card from './Card';
 import ReactMarkdown from 'react-markdown';
 
 const Cards = () => {
-  const URL = "http://localhost:8080";
+  const URL = "https://react-markdown-app.herokuapp.com";
   const [isOpen, setIsOpen] = useState(false);
   
   const formik = useFormik({

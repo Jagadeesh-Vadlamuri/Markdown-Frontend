@@ -4,7 +4,7 @@ import AuthService from './Auth_Service';
 import {useNavigate} from 'react-router-dom';
 
 const instance = axios.create({
-    URL: 'http://localhost:8080',
+    URL: 'https://react-markdown-app.herokuapp.com',
     headers: {
         'Content-Type': 'application/json'
     },

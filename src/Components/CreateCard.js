@@ -4,7 +4,7 @@ import axios from 'axios';
 import {Link} from 'react-router-dom';
 
 const CreateCard = () => {
-    const URL = "http://localhost:8080";
+    const URL = "https://react-markdown-app.herokuapp.com";
     
     const formik = useFormik({
         initialValues: {

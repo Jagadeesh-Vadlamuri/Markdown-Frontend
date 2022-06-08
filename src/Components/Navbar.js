@@ -4,7 +4,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import authService from "../Services/auth";
 
 const Navbar = () => {
-  const URL = "http://localhost:8080";
+  const URL = "https://react-markdown-app.herokuapp.com";
 
   const navigate = useNavigate();
   const handleLogout = () => {

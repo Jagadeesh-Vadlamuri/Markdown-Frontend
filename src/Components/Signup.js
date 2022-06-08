@@ -16,7 +16,7 @@ import PriorityHighIcon from "@mui/icons-material/PriorityHigh";
 import HowToRegIcon from "@mui/icons-material/HowToReg";
 
 const Signup = () => {
-  const URL = "http://localhost:8080";
+  const URL = "https://react-markdown-app.herokuapp.com";
   const [users, setUsers] = useState([]);
   const [details, setDetails] = useContext(store);
   const [isOpen2, setIsOpen2] = useState(false);

@@ -8,7 +8,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import EditCard from "./EditCard";
 
 const Card = ({formik}) => {
-  const URL = "http://localhost:8080";
+  const URL = "https://react-markdown-app.herokuapp.com";
 
   const [cone, setCone] = useContext(store);
 

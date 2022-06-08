@@ -9,7 +9,7 @@ import VpnKeyIcon from "@mui/icons-material/VpnKey";
 import { store } from "../App";
 
 const HomePage = ({details, setDetails}) => {
-  const URL = "http://localhost:8080";
+  const URL = "https://react-markdown-app.herokuapp.com";
   const navigate = useNavigate();
 
   const formik = useFormik({

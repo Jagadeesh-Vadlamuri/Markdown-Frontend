@@ -14,7 +14,7 @@ import Signup from "./Components/Signup";
 
 export const store = createContext();
 const App = () => {
-  const URL = "http://localhost:8080";
+  const URL = "https://react-markdown-app.herokuapp.com";
   const [details, setDetails] = useState([
     {
       fname: "",
