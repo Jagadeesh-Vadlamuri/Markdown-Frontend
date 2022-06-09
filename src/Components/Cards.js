@@ -39,9 +39,7 @@ const Cards = () => {
   };
   const [count, setCount] = useState(0);
   
-  useEffect(() => {
-    getTasks();
-  }, [count]);
+  
 
   const handleReadMore = async (id) => {
     for(let i=0; i<data.length; i++){
@@ -58,9 +56,13 @@ const Cards = () => {
     });
   };
 
+  useEffect(() => {
+    getTasks();
+  }, [count]);
+
   const handleCancel = () => {
-    togglePopup();
-    window.location.reload();
+    setIsOpen(!isOpen)
+    setCount(count + 1);
   }
   return (
     <div className="container">
