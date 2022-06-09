@@ -34,6 +34,7 @@ const HomePage = ({details, setDetails}) => {
             console.log(error);
           }
         );
+        
       } catch (err) {
         console.log(err);
       }
